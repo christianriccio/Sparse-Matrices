@@ -1,7 +1,7 @@
 import numpy as np
 
 def matrix(n):
-  '''sparse matrices needs to be menaged by dictionaries. This function buil a dictionary that represent the sparse matrices og  given dimension'''
+  '''sparse matrices needs to be menaged by dictionaries. This function buil a dictionary that represent the sparse matrices of a given dimension'''
     d=dict()
     for el in range(n):
         if len(d) == n:
